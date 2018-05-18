@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle add-date",
+        "command": "add-date:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "add-date",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "add-date:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
